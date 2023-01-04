@@ -1,0 +1,66 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: rgb(231, 207, 207);
+}
+h1 {
+  font-size: 4rem;
+}
+.winner {
+  background: linear-gradient(to right, rgb(218, 153, 202), rgb(89, 145, 143));
+}
+.win-text {
+  display: none;
+}
+.winner div:first-child {
+  display: block;
+  text-align: center;
+  font-size: 9rem;
+  color: rgb(5, 255, 130);
+}
+.winner div:not(:first-child) {
+  display: none;
+}
+.board {
+  width: 75vh;
+  height: 66vh;
+  margin: auto auto;
+  display: grid;
+  grid-template-columns: 25vh 25vh 25vh;
+  grid-template-rows: 22vh 22vh 22vh;
+  gap: 2px;
+}
+.board div {
+  border: 1px solid rgb(110, 109, 109);
+}
+.symbol {
+  color: rgb(248, 145, 10);
+  text-align: center;
+  font-size: 21vh;
+}
+.symbol:hover {
+  background-color: blanchedalmond;
+}
+.heading {
+  text-align: center;
+}
+.btn {
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 8px;
+  margin-right: 20px;
+  background: none;
+  border: none;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+}
+.box {
+  /* width: 25vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
